@@ -20,6 +20,11 @@ package concept.abstractClass;
     void color() {
         System.out.println("concept.abstractClass.Circle.color()");
     }
+
+    @Override
+    void display() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
       

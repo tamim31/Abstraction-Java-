@@ -1,22 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package concept.abstractClass;
 
-/**
- *
- * @author USER
- */
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
         
+           //Shape s1=new Shape();[An instance of an abstract class can not be created.]
+         
         Shape s1=new Circle();
         s1.draw();
         
@@ -29,6 +21,15 @@ public class Main {
          
         s=new Rectangle();
         s.color();
+        
+        s.redraw();
+        s.recolor();
+        Triangle t1=new Triangle();
+        t1.display();
+        t1.color();
+        t1.draw();
+
+       
         
         
     }

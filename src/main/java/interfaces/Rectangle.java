@@ -1,10 +1,7 @@
 
 package interfaces;
 
-/**
- *
- * @author USER
- */
+
  class Rectangle implements Shape{
 
      private double w;
@@ -17,7 +14,7 @@ package interfaces;
      
     @Override
     public double area() {
-        
+        System.out.println("interfaces.Rectangle.area()");
         return w* l;
     }
     
